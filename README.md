@@ -27,31 +27,33 @@ It uses **Google Generative AI (Gemini 2.5 Flash)** in the backend to analyze co
 
 ## 📂 Folder Structure
 
+```plaintext
 Code Review/
 │
 ├── backend/
-│ ├── src/
-│ │ ├── controllers/
-│ │ │ └── ai.controller.js
-│ │ ├── routes/
-│ │ │ └── ai.routes.js
-│ │ ├── services/
-│ │ │ └── ai.service.js
-│ │ ├── app.js
-│ │ └── server.js
-│ ├── package.json
-│ └── .env
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   └── ai.controller.js
+│   │   ├── routes/
+│   │   │   └── ai.routes.js
+│   │   ├── services/
+│   │   │   └── ai.service.js
+│   │   ├── app.js
+│   │   └── server.js
+│   ├── package.json
+│   └── .env
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ ├── App.css
-│ │ └── assets/logo.png
-│ ├── package.json
-│ └── vite.config.js
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── App.css
+│   │   └── assets/logo.png
+│   ├── package.json
+│   └── vite.config.js
 │
 └── README.md
+```
 
 ---
 
